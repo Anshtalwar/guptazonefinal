@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/employee.css" />
+    <script src="/js/back.js"></script>
+  </head>
+  <body>
+  
+    <div id="login_div" class="main-div">
+      <button onclick="backindex()">Back</button>
+      <h3> Login </h3>
+      <input type="email" placeholder="Email" id="email_field" />
+      <input type="password" placeholder="Password" id="password_field" />
+     
+      
+      <button onclick="login()" class="btns">Login to Account</button>
+    </div>
+  
+    <div id="user_div" class="loggedin-div">
+      <button onclick="logout()" class="btns">Logout</button>
+
+  
+    </div>
+    
+<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+<script>
+var config = {
+  apiKey: "AIzaSyB47-TY5QGkV-9rmL23wSZ-5S9HJkY5Hzo",
+  authDomain: "guptazone-abac6.firebaseapp.com",
+  databaseURL: "https://guptazone-abac6-default-rtdb.firebaseio.com",
+  projectId: "guptazone-abac6",
+  storageBucket: "guptazone-abac6.appspot.com",
+  messagingSenderId: "1022785917",
+  appId: "1:1022785917:web:405cf6da419a68144eb414",
+  measurementId: "G-TDV4YGCJPV"};
+  firebase.initializeApp(config);
+  </script>
+  <script src="/js/employee.js"></script>
+
+  </body>
+  </html>
+  
