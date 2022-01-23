@@ -16,9 +16,8 @@ input{
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
     }
-.add{background-color: #4CAF50; /* Green */
+.add{ /* Green */
   border: none;
-  color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -26,9 +25,7 @@ input{
   border-radius: 5px;
   font-size: 16px;}
 .edit{
-    background-color: blue;
     border: none;
-    color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -37,9 +34,7 @@ input{
     border-radius: 5px;
   }
 .delete{
-    background-color: red; /* Green */
     border: none;
-    color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
